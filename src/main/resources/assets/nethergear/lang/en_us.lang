@@ -1,1 +1,8 @@
+#items
 item.nethergear.lavastone.name=Lava Stone
+
+#armor
+item.nethergear.hellforge_chest.name=HellForge Chestplate
+
+#tab
+itemGroup.nethergear=Nether Gear

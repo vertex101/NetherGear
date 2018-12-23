@@ -7,6 +7,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import vertex101.nethergear.ModArmor;
 import vertex101.nethergear.ModItems;
 
 @Mod.EventBusSubscriber
@@ -22,6 +23,7 @@ public class CommonProxy {
 
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
+        ModArmor.register(event.getRegistry());
         ModItems.register(event.getRegistry());
     }
 }
