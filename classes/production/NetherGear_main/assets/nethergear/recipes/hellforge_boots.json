@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "nethergear:hellforge_boots"
+  },
+  "pattern": [
+    "r r",
+    "b b"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "b": {
+      "item": "nethergear:lavastone"
+    },
+    "r": {
+      "item": "nethergear:armor_charm"
+    }
+  }
+}

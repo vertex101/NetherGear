@@ -32,7 +32,7 @@ repositories {
 
 version = "0.0.1"
 group = "vertex101.nethergear" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "nethergear"
+archivesBaseName = "NetherGear"
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8

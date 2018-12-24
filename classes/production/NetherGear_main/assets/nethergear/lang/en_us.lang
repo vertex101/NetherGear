@@ -1,1 +1,12 @@
+#items
 item.nethergear.lavastone.name=Lava Stone
+item.nethergear.armor_charm.name=Armor Charm
+
+#armor
+item.nethergear.hellforge_chestplate.name=HellForge Chestplate
+item.nethergear.hellforge_helmet.name=HellForge Helm
+item.nethergear.hellforge_leggings.name=HellForge Legs
+item.nethergear.hellforge_boots.name=HellForge Boots
+
+#tab
+itemGroup.nethergear=Nether Gear
