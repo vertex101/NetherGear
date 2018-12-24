@@ -10,11 +10,13 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "b": {
+      "type": "nethergear:enchanted_book",
       "item": "minecraft:enchanted_book",
       "enchant": "minecraft:protection",
       "enchant_lvl": 2
     },
     "B": {
+      "type": "nethergear:enchanted_book",
       "item": "minecraft:enchanted_book",
       "enchant": "minecraft:fire_protection",
       "enchant_lvl": 2
