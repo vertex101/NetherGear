@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "nethergear:lavastone"
+  },
+  "pattern": [
+    "brb",
+    "rlr",
+    "brb"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "b": {
+      "item": "minecraft:nether_brick"
+    },
+    "l": {
+      "item": "minecraft:lava_bucket"
+    },
+    "r": {
+      "item": "minecraft:blaze_rod"
+    }
+  }
+}

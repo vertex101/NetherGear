@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "nethergear:armor_charm"
+  },
+  "pattern": [
+    "brb",
+    "rlr",
+    "BrB"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "b": {
+      "item": ""
+    },
+    "B": {
+      "item": ""
+    },
+    "l": {
+      "item": ""
+    },
+    "r": {
+      "item": ""
+    }
+  }
+}
