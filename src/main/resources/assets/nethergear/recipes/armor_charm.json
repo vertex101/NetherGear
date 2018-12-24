@@ -7,19 +7,24 @@
     "rlr",
     "BrB"
   ],
-  "type": "forge:ore_shaped",
+  "type": "minecraft:crafting_shaped",
   "key": {
     "b": {
-      "item": ""
+      "item": "minecraft:enchanted_book",
+      "enchant": "minecraft:protection",
+      "enchant_lvl": 2
     },
     "B": {
-      "item": ""
+      "item": "minecraft:enchanted_book",
+      "enchant": "minecraft:fire_protection",
+      "enchant_lvl": 2
     },
     "l": {
-      "item": ""
+      "item": "nethergear:lavastone"
     },
     "r": {
-      "item": ""
+      "item": "minecraft:skull",
+      "data": 1
     }
   }
 }
