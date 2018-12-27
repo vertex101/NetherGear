@@ -8,8 +8,7 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.registries.IForgeRegistry;
-import vertex101.nethergear.NetherGear;
-import vertex101.nethergear.items.ItemLavaStone;
+import vertex101.nethergear.handler.MatHandler;
 
 public class HFArmor {
     //HellForge
@@ -20,10 +19,10 @@ public class HFArmor {
 
     public static void init() {
         // HellForge
-        hellforge_helmet = new HellForgeArmor("hellforge_helmet", NetherGear.hellforgeArmorMaterial, 1, EntityEquipmentSlot.HEAD);
-        hellforge_chestplate = new HellForgeArmor("hellforge_chestplate", NetherGear.hellforgeArmorMaterial, 1, EntityEquipmentSlot.CHEST);
-        hellforge_leggings = new HellForgeArmor("hellforge_leggings", NetherGear.hellforgeArmorMaterial, 2, EntityEquipmentSlot.LEGS);
-        hellforge_boots = new HellForgeArmor("hellforge_boots", NetherGear.hellforgeArmorMaterial, 1, EntityEquipmentSlot.FEET);
+        hellforge_helmet = new HellForgeArmor("hellforge_helmet", MatHandler.hellforgeArmorMaterial, 1, EntityEquipmentSlot.HEAD);
+        hellforge_chestplate = new HellForgeArmor("hellforge_chestplate", MatHandler.hellforgeArmorMaterial, 1, EntityEquipmentSlot.CHEST);
+        hellforge_leggings = new HellForgeArmor("hellforge_leggings", MatHandler.hellforgeArmorMaterial, 2, EntityEquipmentSlot.LEGS);
+        hellforge_boots = new HellForgeArmor("hellforge_boots", MatHandler.hellforgeArmorMaterial, 1, EntityEquipmentSlot.FEET);
     }
 
     public static void register(IForgeRegistry<Item> registry) {

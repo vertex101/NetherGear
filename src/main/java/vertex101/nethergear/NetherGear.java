@@ -2,10 +2,7 @@ package vertex101.nethergear;
 
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.SoundEvents;
-import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -18,9 +15,7 @@ public class NetherGear {
 
     public static final String MODID = "nethergear";
     public static final String MODNAME = "Nether Gear";
-    public static final String MODVERSION= "0.0.2";
-
-    public static final ItemArmor.ArmorMaterial hellforgeArmorMaterial = EnumHelper.addArmorMaterial("dragonArmorMaterial", "nethergear:hellforge", 200, new int[]{7, 10, 12, 7}, 75, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 20.0F);
+    public static final String MODVERSION= "0.0.3";
 
     @SidedProxy(clientSide = "vertex101.nethergear.proxy.ClientProxy", serverSide = "vertex101.nethergear.proxy.ServerProxy")
     public static CommonProxy proxy;
