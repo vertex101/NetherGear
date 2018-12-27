@@ -20,8 +20,6 @@ public class NetherGear {
     public static final String MODNAME = "Nether Gear";
     public static final String MODVERSION= "0.0.2";
 
-    public static final ItemArmor.ArmorMaterial hellforgeArmorMaterial = EnumHelper.addArmorMaterial("dragonArmorMaterial", "nethergear:hellforge", 200, new int[]{7, 10, 12, 7}, 75, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 20.0F);
-
     @SidedProxy(clientSide = "vertex101.nethergear.proxy.ClientProxy", serverSide = "vertex101.nethergear.proxy.ServerProxy")
     public static CommonProxy proxy;
 

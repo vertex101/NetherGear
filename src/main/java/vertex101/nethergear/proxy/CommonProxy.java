@@ -9,11 +9,13 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import vertex101.nethergear.ModItems;
 import vertex101.nethergear.armor.hellforge.HFArmor;
+import vertex101.nethergear.items.tools.hellforge.SwordHF;
 
 @Mod.EventBusSubscriber
 public class CommonProxy {
     public void preInit(FMLPreInitializationEvent event) {
         HFArmor.init();
+        SwordHF.init();
     }
 
     public void init(FMLInitializationEvent e) {
@@ -26,5 +28,6 @@ public class CommonProxy {
     public static void registerItems(RegistryEvent.Register<Item> event) {
         ModItems.register(event.getRegistry());
         HFArmor.register(event.getRegistry());
+        SwordHF.register(event.getRegistry());
     }
 }
