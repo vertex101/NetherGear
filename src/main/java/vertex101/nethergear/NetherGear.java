@@ -15,7 +15,7 @@ public class NetherGear {
 
     public static final String MODID = "nethergear";
     public static final String MODNAME = "Nether Gear";
-    public static final String MODVERSION= "0.0.3";
+    public static final String MODVERSION= "0.0.4";
 
     @SidedProxy(clientSide = "vertex101.nethergear.proxy.ClientProxy", serverSide = "vertex101.nethergear.proxy.ServerProxy")
     public static CommonProxy proxy;

@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "nethergear:toolrod"
+  },
+  "pattern": [
+    "  r",
+    " l ",
+    "r  "
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "l": {
+      "item": "minecraft:lava_bucket"
+    },
+    "r": {
+      "item": "minecraft:blaze_rod"
+    }
+  }
+}

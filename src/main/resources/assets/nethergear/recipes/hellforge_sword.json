@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "nethergear:hellforge_sword"
+  },
+  "pattern": [
+    " b ",
+    " r ",
+    " t "
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "b": {
+      "item": "nethergear:lavastone"
+    },
+    "r": {
+      "item": "nethergear:sword_charm"
+    },
+    "t": {
+      "item": "nethergear:toolrod"
+    }
+  }
+}

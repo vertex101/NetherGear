@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "nethergear:sword_charm"
+  },
+  "pattern": [
+    "brb",
+    "rlr",
+    "brb"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "b": {
+      "type": "nethergear:enchanted_book",
+      "item": "minecraft:enchanted_book",
+      "enchant": "minecraft:sharpness",
+      "enchant_lvl": 2
+    },
+    "l": {
+      "item": "nethergear:lavastone"
+    },
+    "r": {
+      "item": "minecraft:skull",
+      "data": 1
+    }
+  }
+}

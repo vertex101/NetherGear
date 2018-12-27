@@ -1,6 +1,8 @@
 #items
 item.nethergear.lavastone.name=Lava Stone
 item.nethergear.armor_charm.name=Armor Charm
+item.nethergear.sword_charm.name=Sword Charm
+item.nethergear.toolrod.name=Tool Rod
 
 #tools
 item.nethergear.hellforge_sword.name=HellForge Slayer

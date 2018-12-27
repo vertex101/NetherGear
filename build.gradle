@@ -30,7 +30,7 @@ repositories {
     }
 }
 
-version = "0.0.3"
+version = "0.0.4"
 group = "vertex101.nethergear" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "NetherGear"
 
